@@ -1,0 +1,31 @@
+{
+  "name": "reactappenvbyown",
+  "version": "1.0.0",
+  "description": "This is the project where we see that what actually react create app contains in it while hitting command now we will create this all by our own from scratch what all need in react app environment",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritik9911/React-learning.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ritik Thawani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritik9911/React-learning/issues"
+  },
+  "homepage": "https://github.com/ritik9911/React-learning#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "browserslist" : [
+      "last 2 versions"
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="root">
+        <!-- <h1>Hello World!</h1> -->
+    </div>
+    <!-- order of the script tag should me maintained if before defining react cdn, I add App.js above it then it will give me an error.  -->
+    <!-- <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World from Javascript!";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script> -->
+
+    <script type="module" src="./App.js"></script>
+    <!-- why react and react-dom are two different libraries? because react is the core library which has all the logic and react-dom is the library which is used to render the react code in the browser. React can be used in other platforms like mobile, desktop etc. but react-dom is only for web browsers. -->
+    <!-- <script>
+        const heading = React.createElement("h1", {}, "Hello World from React!" );
+        const root = ReactDOM.createRoot(document.getElementById("root")); // All react code will run inside this root this will get the root element
+        root.render(heading);
+    </script> -->
+</body>
+</html>
