@@ -45,7 +45,7 @@ We will install the react using npm instead of using it through cdn "npm install
 - Tree Shaking - remove unused code for us.
 - Different dev and prod bundles
 
-Ritik POV what will tell I don't know because this is return by my understanding before akshay explained:-
+Ritik POV what akshay will tell I don't know because this is return by my understanding before akshay explained:-
 Basically parcel creates the dist folder which is also known as Build, which contains all the minified code of our react app contains html,css and js files and that is what shown in ("local server" or "host")
 
 React is making our app fast is coorect but there is lot more stuff behind the scene like parcel is also does most of the things for us in react
